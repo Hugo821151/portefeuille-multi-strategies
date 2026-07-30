@@ -17,7 +17,7 @@ pour que les résultats soient reproductibles.
 
 ## Résultats principaux
 
-**Le backtest momentum a échoué — et le résultat est publié tel quel.**
+**Le backtest momentum a échoué et le résultat est publié tel quel.**
 
 Sélection en juillet 2025 sur le momentum 12 mois, mesure du rendement réalisé sur
 les 12 mois suivants :
@@ -32,7 +32,7 @@ le plus fiable de produire une stratégie qui brille en backtest et perd de l'ar
 réel. La poche n'a pas été déployée.
 
 Limites assumées : une seule date de départ, 10 titres, 3 positions par groupe, aucun
-coût de transaction, biais du survivant. Statistiquement, ce test ne prouve rien — il
+coût de transaction, biais du survivant. Statistiquement, ce test ne prouve rien, il
 sert à maîtriser la mécanique, pas à valider un facteur.
 
 **Les bêtas publiés étaient inutilisables tels quels.**
@@ -64,7 +64,7 @@ baisse de marché de 10%.
 
 **pandas aligne sur l'index, pas sur les dates.** Deux séries de longueurs différentes
 sont appariées ligne à ligne, donc mois décalés, sans aucune erreur affichée. Le bêta
-d'un ETF de 30 mois calculé contre 60 mois d'indice donnait 0,186 au lieu de 0,342 —
+d'un ETF de 30 mois calculé contre 60 mois d'indice donnait 0,186 au lieu de 0,342 
 un nombre propre et faux. Correction par `pd.merge(..., on='Date')`.
 
 **La croissance publiée n'est pas la croissance organique.** Sur un dossier, l'écart
