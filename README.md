@@ -57,7 +57,7 @@ de croissance pourrait restaurer la corrélation négative.
 **Bêta du fonds : 0,506 courant / 0,806 cible.**
 
 Deux mesures publiées, parce qu'un gérant décrit l'exposition qu'il détient et non celle
-qu'il envisage. L'écart de 0,30 représente le risque non encore pris — 30 000 € dans une
+qu'il envisage. L'écart de 0,30 représente le risque non encore pris 30 000 € dans une
 baisse de marché de 10%.
 
 ## Pièges rencontrés
